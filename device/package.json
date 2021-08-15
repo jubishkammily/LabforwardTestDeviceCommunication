@@ -1,0 +1,15 @@
+{
+  "name": "devicesimulator",
+  "version": "1.0.0",
+  "description": "This is a simulator for device for demonstrating the device driver communication",
+  "main": "device-simulater.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jubish Kammily",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  }
+}

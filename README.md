@@ -37,11 +37,11 @@ All the messags are displayed in the respective console.
 
 As a demonstration the first command sent automatically by the driver. 
 The command is 'S'. This command tells the device to send back the weight.
-The intermediate states will be printed on both console.The data will be converted to ASCII and send to device. The device will parse and process and match against the commands in the file. If command is recognized then necessary action will start and sth status will be sent back driver in real time. 
+The intermediate states will be printed on both console.The data will be converted to ASCII and send to device. The device will parse and process and match against the commands in the file. If command is recognized then necessary action will start and sth status will be sent back to the driver in real time. 
 The driver will print the status on the console.
-After finishing this command the driver will ask the user to enter command in the console(command line).
+After finishing this command the driver will ask the user to enter a new command in the console (command line).
 
-###  Driver
+### Example 1 Driver Console
 
 ```bash
 Driver online
@@ -52,7 +52,7 @@ The current Stable Weight Value is 100.00g
 
 Enter Command [S,TAR,TS]:
 ```
-###  Device
+### Example 1 Device Console
 
 ```bash
 Device online
@@ -65,7 +65,7 @@ The current Stable Weight Value is 100.00g
 ```
 Enter the command . The command will be porcessed and if recognized the response will be printed on the decvice console.
 
-###  Driver
+### Example 2  Driver Console
 
 ```bash
 Driver online
@@ -84,7 +84,7 @@ Taring Process has completed
 
 Enter Command [S,TAR,TS]:
 ```
-###  Device
+### Example 2 Device Console
 
 ```bash
 Device online

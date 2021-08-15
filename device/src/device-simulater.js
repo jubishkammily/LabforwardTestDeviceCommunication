@@ -81,6 +81,10 @@ function initiateTriggeringCommands(strCommand,socket){
         console.log(deviceCommandsMap[strCommand]);
         processMapping(strCommand,socket)
     }else{
+        commandGlobal = [];
+        hexArrayGlobal = [];
+        socket.emit('deviceResponseCompleted');
+        // console.log("Command Not Recognized");
         console.log('Listening');
     }
     

@@ -4,7 +4,8 @@
   "description": "This is a simulator for device for demonstrating the device driver communication",
   "main": "device-simulater.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node src/device-simulater.js"
   },
   "author": "Jubish Kammily",
   "license": "MIT",

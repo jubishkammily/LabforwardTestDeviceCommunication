@@ -104,11 +104,13 @@ Taring command started
 
 ```
 
-## With More time to Spend
+## If I get more time
 
-I could extend this application showing a particular command in execution or the machine is busy to process a command etc.
 
-I could add demonstration with multiple devices.The  communication in real time and connection and swtiching of devices.
+I would be able to extend this example with a good User Interface with buttons and animations in the web browser instead of console for a better understanding of functionalities.
 
-I could also extend this example with a good User Interface with buttons and animations in the web browser instead of console for a better understanding and functionalities.
+I will be able to add a real world example with real commands and real execution behaviour and add multiple devices, which give more insights to the client. 
+
+
+
 

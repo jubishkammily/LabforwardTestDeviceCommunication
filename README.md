@@ -1,7 +1,7 @@
 # Device - Driver  Communication Simulator
 This is a project with two small node js application which demonstraites the asynchronous communication between a hardware and a driver. This uses websockets to demonstrate a real time communication between hardware and driver.
 
-## Conetents
+## Contents
 
 Download the package. There are two nodejs applications in the downloaded folder.
 - Device 
@@ -28,6 +28,8 @@ Go to drive folder and run the command. in the second command prompt
 
 
 The above commands starts the device and driver. it will start the communication in the begining automatically. 
+
+Once both program starts . Device and Driver will get connected eah other and shows the status Online after successfully connected.
 
 All the messags are displayed in the respective console.
 

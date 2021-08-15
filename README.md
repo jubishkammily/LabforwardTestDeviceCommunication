@@ -7,7 +7,7 @@ Download the package. There are two nodejs applications in the downloaded folder
 - Device 
 - Device 
 
-#### Usage
+### Usage
 
 Download project to your computer
 
@@ -25,6 +25,8 @@ Go to drive folder and run the command. in the second command prompt
  npm install
  npm run start
 ```
+
+#### Please wait 2 to 3 seconds for the device to start. Given small delay to see whats happening.
 
 
 The above commands starts the device and driver. it will start the communication in the begining automatically. 

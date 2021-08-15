@@ -10,6 +10,19 @@ const readline = require('readline').createInterface({
 })
 
 
+startDriver();
+
+
+/**
+ * This starts the driversimulator
+ * @returns void
+ */
+function startDriver(){
+    
+deviceResponse();
+checkDriverConnectionStatus();
+
+}
 
 /**
  * This is to send command to the device to get the response.
@@ -134,6 +147,3 @@ function sleep(ms) {
     });
 }
 
-
-deviceResponse();
-checkDriverConnectionStatus();

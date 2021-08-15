@@ -22,11 +22,26 @@ let hexArrayGlobal = [];
 let socketGlobal;
 
 
+
+startDevice();
+
+/**
+ * This starts the device simulator
+ * @returns void
+ */
+function startDevice(){
+    server.listen(port,()=>{
+        //console.log(`Device up on ${port}!`)
+    }); 
+    connectionEvent();    
+}
+
+
 /**
  * This is an event which will be triggerd when a driver connects to the device
  * @returns void
  */
- const connectionEvent = ()=>{
+ function connectionEvent(){
     io.on('connection',async (socket)=>{
 
         socket.on('sendCommandCompleted',()=>{
@@ -150,11 +165,5 @@ return strCommand;
   } 
 
 
-server.listen(port,()=>{
-    //console.log(`Device up on ${port}!`)
-}); 
-
-
-connectionEvent();
 
 
